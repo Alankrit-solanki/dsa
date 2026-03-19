@@ -6,7 +6,7 @@ class Solution {
         Arrays.sort(arr);
         int n = arr.length;
         
-        for(int i = 0; i < n - 2; i++) {
+        for(int i = 0; i < n - 1; i++) {
             
             int first = i + 1;
             int last = n - 1;
